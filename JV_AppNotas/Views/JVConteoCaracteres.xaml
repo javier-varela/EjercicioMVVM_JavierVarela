@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JV_AppNotas.Views.JVConteoCaracteres"
+             Title="JVConteoCaracteres">
+    <VerticalStackLayout>
+        <Entry x:Name="inputEntry" Placeholder="Ingresa una cadena" />
+
+        <Button Text="Calcular" Clicked="JV_CalcularClick" />
+
+        <Label Text="Resultados:" FontSize="Title" />
+
+        <Label x:Name="numerosLabel" />
+        <Label x:Name="letrasLabel" />
+        <Label x:Name="vocalesLabel" />
+        <Label x:Name="mayusculasLabel" />
+        <Label x:Name="minusculasLabel" />
+        <Label x:Name="totalLabel" />
+
+        <Button Text="Limpiar" Clicked="JV_LimpiarClick" />
+    </VerticalStackLayout>
+</ContentPage>
